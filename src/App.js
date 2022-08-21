@@ -1,6 +1,7 @@
 import {Routes, Route} from 'react-router-dom'
 import NavBar from './components/navbar.component';
 import Home from './components/home.component';
+import TechStack from './components/techstack.component';
 import './App.css';
 
 
