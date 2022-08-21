@@ -9,7 +9,7 @@ const NavBar = () => {
         <Fragment>
         <div>
         <nav className="pnav navbar navbar-expand-lg navbar-dark">
-        <a className="navbar-brand" href="#">
+        <a className="navbar-brand" href="/">
             <img className='logo' src={logops} alt='logo-img' />
         </a>
         <button className="navbar-toggler ms-auto" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,7 +21,7 @@ const NavBar = () => {
                 <a className="nav-link" href="/">Home</a> 
             </li>
             <li className="nav-item active">
-                <a className="nav-link" href="#">About</a>
+                <a className="nav-link" href="/about">About</a>
             </li>
             <li className="nav-item active">
                 <a className="nav-link" href="#">Projects</a>
