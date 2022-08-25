@@ -1,6 +1,8 @@
+
 import background from "../assets/bg_home.jpg"
 import dummy from "../assets/dummy_edit.jpg"
 import "./about.styles.scss"
+import Footer from "./footer.component"
 
 const About = () =>{
     return(
@@ -19,8 +21,9 @@ const About = () =>{
     </div>
     <div className="portrait-container">
             <img src={dummy} alt="portrait"/>
+            
         </div>
-
+        
     </div>
     )
 }

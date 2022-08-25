@@ -1,8 +1,135 @@
 .techstack-container{
-    div{
-        position: absolute;
-        margin-top: 50px;
-        font-family: 'Merriweather', serif;
+    width: 100%;
+    position: absolute;
+    margin-top: 25%;
+    font-family: 'Merriweather', serif;
+    background-color: #000;
+    color: #C5C7D0;
+    
+    .title-holder{
+        text-align: center;
+        padding-top: 2%;
+        margin-left: 2%;
+        margin-bottom: 2rem;
     }
+
+    .icon-container {
+        display: flex;
+        flex-direction:row;
+        justify-content: center;
+        li{
+            list-style: none;
+            padding-left: 2%;
+            padding-right: 2%;
+            margin-bottom: 2%;
+        }
+    }
+
+    .project-cards{
+        font-family: 'Merriweather','serif';
+        display: flex;
+        justify-content: center;
+        .projects{
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+        .card{
+            width: 18rem;
+           
+            .card-body{
+                color: #3A3B3C;
+                    
+            }
+            
+            .but-container{
+                text-align: center;
+            }
+            
+        }
+    }
+
+    .all-projects{
+        margin-top: 2rem;
+
+        h5{
+            margin-bottom: 1%;
+        }
+    }
+}
+
+@media (max-width:928px){
+    .techstack-container{
+        margin-top: 20%;
+
+    
+        .title-holder h3{
+            font-size: 1.5rem;
+        }
+
+        .project-cards{
+            width: 100%;
+            font-family: 'Merriweather','serif';
+            display: flex;
+            flex-wrap:wrap;
+            justify-content: center;
+            .projects{
+                margin-top: 1%;
+                margin-left: 5%;
+                margin-right: 5%;
+            }
+            .card{
+                width: 12rem;
+                // height:10rem;
+               
+                .card-body{
+                    color: #3A3B3C;
+                        
+                }
+                
+                .but-container{
+                    text-align: center;
+                }
+                
+            }
+        }
+    
+    }
+    
+}
+
+@media (max-width:720px){
+    .techstack-container{
+        margin-top: 18%;
+
+    
+        .title-holder h3{
+            font-size: 1rem;
+        }
+
+        .icon-container img{
+            max-width: 60%;
+        }
+
+        .card{
+            margin-top: 2.5%;
+            font-size: 0.5rem;
+            width:5rem;
+
+            a{
+                font-size: 0.6rem;
+            }
+        }
+
+        h5{
+            font-size: 0.8rem;
+            margin-bottom: 1%;
+        }
+
+        .all-projects{
+            margin-bottom: 5%;
+        }
+    
+    }
+    
 }
 
